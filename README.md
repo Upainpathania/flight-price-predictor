@@ -54,4 +54,25 @@ This project can be used by travelers to estimate ticket prices and make better 
 
 ---
 
+
+## 🚀 Why This Project Stands Out
+
+- End-to-end ML pipeline (data → model → UI)
+- Real-world use case (travel prediction)
+- Clean and interactive UI
+- Ready for deployment
+
+
+---
+
+
+## 📌 Author
+
+Sukhmanpreet Kaur  
+Aspiring AI/ML Developer 🚀
+
+
+---
+
+
 ✨ Built for learning, projects, and internship preparation
