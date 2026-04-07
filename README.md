@@ -1,117 +1,57 @@
 # ✈️ Flight Price Predictor
 
-🚀 A Machine Learning based web app that predicts flight ticket prices using user inputs like airline, route, stops, and journey date.
+An AI-powered web application that predicts flight ticket prices based on user inputs like airline, route, journey date, and stops.
 
 ---
 
-## 🌟 Features
+## 🚀 Features
 
-* 🎯 Accurate flight price prediction using ML models
-* ⚡ Fast and interactive UI built with Streamlit
-* 🧠 Uses advanced models (Random Forest, XGBoost, etc.)
-* 📊 Feature engineering (date, time, route patterns)
-* 🌐 Ready for deployment (Streamlit Cloud)
-
----
-
-## 🖥️ Demo
-
-👉 Live App: *(Add your Streamlit link here after deployment)*
+* 🔮 Predict flight prices instantly using Machine Learning
+* 🎨 Interactive UI built with Streamlit
+* 💡 Smart insights (Cheap / Moderate / Expensive flights)
+* 📊 Price range visualization
+* ⚡ Fast and responsive
 
 ---
 
-## 📂 Project Structure
+## 🧠 Tech Stack
 
-```
-flight-price-predictor/
-│
-├── app.py             # Streamlit UI
-├── pipe.pkl           # Trained ML pipeline
-├── Data_Train.xlsx    # Dataset
-├── README.md          # Project documentation
-├── requirements.txt   # Dependencies
-```
-
----
-
-## ⚙️ Tech Stack
-
-* Python 🐍
+* Python
 * Pandas & NumPy
 * Scikit-learn
-* XGBoost / LightGBM
 * Streamlit
+* Machine Learning Models (RandomForest, XGBoost, etc.)
 
 ---
 
-## 🧠 How It Works
+## ▶️ Run Locally
 
-1. User enters flight details:
-
-   * Airline
-   * Source & Destination
-   * Stops
-   * Journey Date
-
-2. Feature Engineering:
-
-   * Extracts day, month, weekday
-   * Calculates weekend indicator
-   * Adds time-based features
-
-3. Model Prediction:
-
-   * Input passed into trained pipeline (`pipe.pkl`)
-   * Model predicts log(price)
-   * Converted back using exponential
-
----
-
-## 🚀 Installation & Run Locally
-
-### Step 1: Clone repo
-
-```
-git clone https://github.com/Sukhmanpreetkaur18/flight-price-predictor.git
-cd flight-price-predictor
-```
-
-### Step 2: Install dependencies
-
-```
+```bash
 pip install -r requirements.txt
-```
-
-### Step 3: Run app
-
-```
 streamlit run app.py
 ```
 
 ---
 
-## ⚠️ Limitations
+## 📌 Project Highlights
 
-* Model supports limited cities (based on training data)
-* New/unseen routes may reduce prediction accuracy
-
----
-
-## 💡 Future Improvements
-
-* 🌍 Support more cities & real-time data
-* 📈 Add price trend visualization
-* 🤖 Integrate external APIs (flight data)
-* 🎨 Enhance UI/UX with animations
+* Feature engineering (date, time, route, etc.)
+* Multiple ML models tested and compared
+* Final optimized pipeline used for prediction
 
 ---
 
-## 👩‍💻 Author
+## 🖼️ Preview
 
-**Sukhmanpreet Kaur**
+(![preview png](https://github.com/user-attachments/assets/d1664326-bfdb-43e7-a423-fdbef6170eb2))
 
 ---
 
-## ⭐ Show your support
 
-If you like this project, give it a ⭐ on GitHub!
+## 💼 Use Case
+
+This project can be used by travelers to estimate ticket prices and make better booking decisions.
+
+---
+
+✨ Built for learning, projects, and internship preparation
