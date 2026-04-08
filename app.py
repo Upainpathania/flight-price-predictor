@@ -10,6 +10,15 @@ model = pickle.load(open("pipe.pkl", "rb"))
 # ================= PAGE CONFIG =================
 st.set_page_config(page_title="✈️ Flight Price Predictor", layout="wide")
 
+# Title
+st.markdown(
+    """
+    <h1 style='text-align: center;'>Flight price  preidctor</h1>
+    <p style='text-align: center;'>Made by <b>Sukhmanpreet kaur</b></p>
+    <hr>
+    """,
+    unsafe_allow_html=True
+)
 # ================= CUSTOM CSS =================
 st.markdown("""
 <style>
